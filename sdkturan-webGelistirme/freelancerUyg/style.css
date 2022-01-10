@@ -147,3 +147,45 @@ header h2 {
     background-color: #18bc9c;
     padding: 0 .8rem;
 }
+
+
+/* portfolio */
+
+.portfolio {
+    background-color: #fff;
+    margin-top: 5rem;
+}
+
+.portfolio .col-3 {
+    width: 33.33%;
+    float: left;
+    padding: 1.5rem;
+}
+
+.portfolio h2 {
+    text-align: center;
+    color: #2c3e59;
+    font-size: 5rem;
+}
+
+.star-dark {
+    border: none;
+    border-top: .4rem solid #2c3e59;
+    max-width: 25rem;
+    margin: 2.5rem auto;
+    overflow: visible;
+    height: 0;
+    text-align: center;
+}
+
+.star-dark::after {
+    content: "\f005";
+    font-family: "Font Awesome 5 Free";
+    color: #2c3e59;
+    font-weight: 900;
+    font-size: 3.2rem;
+    position: relative;
+    top: -2.6rem;
+    background-color: #fff;
+    padding: 0 .8rem;
+}
